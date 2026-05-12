@@ -1,0 +1,22 @@
+# Core LangChain
+langchain>=0.1.16
+langchain-community>=0.0.34
+langchain-huggingface>=0.0.3
+langchain-google-genai>=1.0.0
+
+# Data Processing & Parsing
+beautifulsoup4>=4.12.3
+pyarrow>=14.0.0
+huggingface-hub>=0.23.0
+datasets>=2.18.0
+
+# Vector Database (Sử dụng bản >= 0.5.0 để tránh lỗi Telemetry)
+chromadb>=0.5.0
+
+# AI Models (Sử dụng bản mới để tránh xung đột với huggingface-hub)
+transformers>=4.41.0
+sentence-transformers>=3.0.0
+
+# UI & Utilities
+streamlit>=1.35.0
+python-dotenv>=1.0.1

@@ -1,0 +1,11 @@
+# Môi trường ảo
+.venv/
+
+# Toàn bộ thư mục cache của Python
+**/__pycache__/
+
+# Bảo mật API Key
+.env
+
+# Dữ liệu Database (Nặng, không cần push)
+db_storage/
